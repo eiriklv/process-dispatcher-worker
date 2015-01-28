@@ -25,7 +25,7 @@ export NODE_ENV="development" \
 export MONGO_URL="mongodb://localhost/collectify" \
 export REDIS_URL='redis://localhost:6379' \
 
-node worker
+node dispatcher
 ```
 
 #### Development shellscript example for `worker.js`:
