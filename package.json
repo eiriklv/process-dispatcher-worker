@@ -1,0 +1,28 @@
+{
+  "name": "process-dispatcher-worker",
+  "version": "1.0.0",
+  "description": "A boilerplate for distributing and processing streams of data",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eirik Vullum <evullum@gmail.com> (http://www.evconsult.no/)",
+  "license": "ISC",
+  "dependencies": {
+    "asap": "^2.0.0",
+    "asfy": "^1.0.1",
+    "async": "^0.9.0",
+    "convict": "^0.6.1",
+    "debug": "2.0.x",
+    "highland": "^2.3.0",
+    "interprocess-push-stream": "git://github.com/eiriklv/interprocess-push-stream",
+    "interprocess-pull-stream": "git://github.com/eiriklv/interprocess-pull-stream",
+    "lodash": "^2.4.1",
+    "mongoose": "3.8.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eiriklv/process-dispatcher-worker"
+  },
+  "devDependencies": {}
+}
