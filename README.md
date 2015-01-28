@@ -22,7 +22,7 @@ A(n opinionated) boilerplate for processing stuff using streams, channels and pe
 
 export DEBUG="*" \
 export NODE_ENV="development" \
-export MONGO_URL="mongodb://localhost/collectify" \
+export MONGO_URL="mongodb://localhost/jobs-db" \
 export REDIS_URL='redis://localhost:6379' \
 
 node dispatcher
@@ -34,7 +34,7 @@ node dispatcher
 
 export DEBUG="*" \
 export NODE_ENV="development" \
-export MONGO_URL="mongodb://localhost/collectify" \
+export MONGO_URL="mongodb://localhost/jobs-db" \
 export REDIS_URL='redis://localhost:6379' \
 
 node worker
