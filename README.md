@@ -42,4 +42,6 @@ node worker
 
 #### Todo:
 * add `StreamBufferMonitor`
+* add automatic scaling via cluster-forking or Heroku API
 * add automatic redo of abandoned jobs using mongoose as a source
+* add lightweight web-server with websockets for realtime monitoring
