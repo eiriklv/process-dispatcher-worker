@@ -120,7 +120,7 @@ setup.connectToDatabase(
  */
 registeredJobsStream
   .fork()
-  .map(helpers.inspect(debug, 'registered-job-stream'))
+  .doto(helpers.inspect(debug, 'registered-job-stream'))
   .pipe(dispatchJobsChannel)
 
 /**
@@ -128,5 +128,5 @@ registeredJobsStream
  * to the error channel
  */
 errorStream
-  .map(helpers.inspect(debug, 'error-stream'))
+  .doto(helpers.inspect(debug, 'error-stream'))
   .pipe(errorChannel)
